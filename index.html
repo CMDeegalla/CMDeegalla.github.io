@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Chathuryaya Mandakini Deegalla | Network Portfolio</title>
-  <meta name="description" content="Computer Networks undergraduate portfolio: routing, switching, security, Wireshark, Linux, firewalls, and labs." />
+  <meta name="description" content="Computer Networks undergraduate portfolio: routing, switching, Wireshark analysis, Linux networking, firewalls, and Packet Tracer labs." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <!-- Background orbs -->
   <div class="bg-orb orb-1"></div>
   <div class="bg-orb orb-2"></div>
   <div class="bg-orb orb-3"></div>
@@ -21,6 +22,7 @@
       </div>
       <div class="nav-links">
         <a href="#projects">Projects</a>
+        <a href="#packettracer">Packet Tracer</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </div>
@@ -29,30 +31,33 @@
     <div class="hero-card">
       <div class="hero-left">
         <p class="pill">BSc (Hons) in Computer Networks • NSBM Green University</p>
-        <h1>Networking labs, security analysis, and clean documentation.</h1>
+
+        <h1>Modern networking portfolio with real labs, diagrams, and downloads.</h1>
+
         <p class="subtitle">
           I’m a Computer Networks undergraduate with hands-on practice in routing & switching,
-          Wireshark analysis, Linux networking, and firewall/ACL basics. Actively seeking an internship
-          in Networking / NOC / IT Infrastructure / Network Security.
+          Wireshark traffic analysis, Linux networking, and firewall/ACL fundamentals.
+          Actively seeking an internship in Networking / NOC / IT Infrastructure / Network Security.
         </p>
 
         <div class="cta">
           <a class="btn primary" href="#projects">View Projects</a>
           <a class="btn ghost" href="https://github.com/CMDeegalla" target="_blank" rel="noreferrer">GitHub</a>
+
         </div>
 
         <div class="mini-stats">
           <div class="stat">
-            <span class="stat-num">4+</span>
-            <span class="stat-label">Core Repos</span>
+            <span class="stat-num">Hands-on</span>
+            <span class="stat-label">Packet Tracer • GNS3</span>
           </div>
           <div class="stat">
-            <span class="stat-num">Wireshark</span>
-            <span class="stat-label">TCP/DNS Analysis</span>
+            <span class="stat-num">Analysis</span>
+            <span class="stat-label">Wireshark TCP/DNS</span>
           </div>
           <div class="stat">
-            <span class="stat-num">OSPF</span>
-            <span class="stat-label">Routing Labs</span>
+            <span class="stat-num">Security</span>
+            <span class="stat-label">iptables • ACLs</span>
           </div>
         </div>
       </div>
@@ -74,18 +79,18 @@
             <span class="chip">Wireshark</span>
             <span class="chip">OSPF</span>
             <span class="chip">VLANs</span>
-            <span class="chip">iptables</span>
-            <span class="chip">ACLs</span>
+            <span class="chip">TCP/DNS</span>
+            <span class="chip">Firewalls</span>
           </div>
 
           <div class="divider"></div>
 
           <div class="quick-links">
             <a class="q" href="https://github.com/CMDeegalla" target="_blank" rel="noreferrer">
-              <span>GitHub</span><span class="arrow">→</span>
+              <span>GitHub Profile</span><span class="arrow">→</span>
             </a>
-            <a class="q" href="#projects">
-              <span>Featured projects</span><span class="arrow">→</span>
+            <a class="q" href="#packettracer">
+              <span>Packet Tracer Downloads</span><span class="arrow">→</span>
             </a>
             <a class="q" href="#contact">
               <span>Contact</span><span class="arrow">→</span>
@@ -93,103 +98,138 @@
           </div>
         </div>
 
-        <div class="note">
-          <strong>Tip:</strong> Add screenshots from Packet Tracer & Wireshark to your repos.
-          It makes your portfolio feel more real to recruiters.
-        </div>
+
       </div>
     </div>
   </header>
 
   <main class="container">
+
+    <!-- Projects -->
     <section id="projects" class="section">
       <div class="section-head">
         <h2>Featured Projects</h2>
-        <p>Internship-ready repositories with structured labs, diagrams, and clear outcomes.</p>
+        <p>Structured repositories with clear labs, outcomes, and documentation.</p>
       </div>
 
       <div class="grid">
+
         <article class="card">
           <div class="card-top">
-            <span class="tag">Fundamentals</span>
-            <span class="tag soft">Theory + Notes</span>
+            <span class="tag tag-purple">Fundamentals</span>
+            <span class="tag tag-cyan">Theory + Labs</span>
           </div>
           <h3>Computer Networks Fundamentals</h3>
-          <p>
-            OSI/TCP-IP, subnetting, protocols, and topologies — written clearly with easy navigation.
-          </p>
+          <p>OSI/TCP-IP, subnetting, protocols, and topologies with clear notes and links.</p>
           <div class="card-actions">
             <a class="btn small primary" href="https://github.com/CMDeegalla/computer-networks-fundamentals" target="_blank" rel="noreferrer">View Repo</a>
-            <a class="btn small ghost" href="https://github.com/CMDeegalla/computer-networks-fundamentals/tree/main/osi-tcp-ip" target="_blank" rel="noreferrer">Open Labs</a>
+            <a class="btn small ghost" href="https://github.com/CMDeegalla/computer-networks-fundamentals/tree/main/osi-tcp-ip" target="_blank" rel="noreferrer">Open OSI Labs</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <span class="tag">Routing</span>
-            <span class="tag soft">Packet Tracer</span>
+            <span class="tag tag-green">Routing</span>
+            <span class="tag tag-amber">Packet Tracer</span>
           </div>
           <h3>Routing & Switching Labs</h3>
-          <p>
-            VLANs, inter-VLAN routing, static routes, and OSPF single area — with configs and verification.
-          </p>
+          <p>VLANs, static routing, and OSPF single-area labs with configs and verification.</p>
           <div class="card-actions">
             <a class="btn small primary" href="https://github.com/CMDeegalla/routing-switching-labs" target="_blank" rel="noreferrer">View Repo</a>
-            <a class="btn small ghost" href="https://github.com/CMDeegalla/routing-switching-labs/tree/main/routing" target="_blank" rel="noreferrer">Open Labs</a>
+            <a class="btn small ghost" href="#packettracer">Download .pkt</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <span class="tag">Security</span>
-            <span class="tag soft">Wireshark</span>
+            <span class="tag tag-red">Security</span>
+            <span class="tag tag-cyan">Wireshark</span>
           </div>
           <h3>Network Security & Traffic Analysis</h3>
-          <p>
-            TCP/DNS analysis, ARP spoofing theory, and mitigation strategies — focused on defensive thinking.
-          </p>
+          <p>TCP/DNS analysis, ARP spoofing theory, and mitigation strategies.</p>
           <div class="card-actions">
             <a class="btn small primary" href="https://github.com/CMDeegalla/network-security-analysis" target="_blank" rel="noreferrer">View Repo</a>
-            <a class="btn small ghost" href="https://github.com/CMDeegalla/network-security-analysis/tree/main/wireshark" target="_blank" rel="noreferrer">Open Labs</a>
+            <a class="btn small ghost" href="https://github.com/CMDeegalla/network-security-analysis/tree/main/wireshark" target="_blank" rel="noreferrer">Open Wireshark Labs</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <span class="tag">Firewall</span>
-            <span class="tag soft">ACLs</span>
+            <span class="tag tag-amber">Firewall</span>
+            <span class="tag tag-purple">ACLs</span>
           </div>
           <h3>Firewall & ACL Labs</h3>
-          <p>
-            Linux iptables basics and Cisco ACL notes. Clean rules + verification commands included.
-          </p>
+          <p>Linux iptables basics and Cisco ACL notes with verification commands.</p>
           <div class="card-actions">
             <a class="btn small primary" href="https://github.com/CMDeegalla/firewall-acl-labs" target="_blank" rel="noreferrer">View Repo</a>
-            <a class="btn small ghost" href="https://github.com/CMDeegalla/firewall-acl-labs/tree/main/linux-firewall" target="_blank" rel="noreferrer">Open Labs</a>
+            <a class="btn small ghost" href="https://github.com/CMDeegalla/firewall-acl-labs/tree/main/linux-firewall" target="_blank" rel="noreferrer">Open iptables Lab</a>
           </div>
         </article>
 
         <article class="card">
           <div class="card-top">
-            <span class="tag">App Project</span>
-            <span class="tag soft">Collaborative</span>
+            <span class="tag tag-cyan">Collaborative</span>
+            <span class="tag tag-green">App Project</span>
           </div>
           <h3>Student Management System</h3>
-          <p>
-            Collaborative academic project demonstrating application-level development exposure.
-          </p>
+          <p>Collaborative academic project showing application-level development exposure.</p>
           <div class="card-actions">
             <a class="btn small primary" href="https://github.com/damithr27/Student_Management_System" target="_blank" rel="noreferrer">View Repo</a>
           </div>
         </article>
+
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <!-- Packet Tracer Downloads -->
+    <section id="packettracer" class="section">
       <div class="section-head">
-        <h2>Skills Snapshot</h2>
-        <p>A quick view of tools and topics I work with in labs and simulations.</p>
+        <h2>Packet Tracer Downloads</h2>
+        <p>Recruiters can download my Cisco Packet Tracer labs (.pkt) directly from GitHub.</p>
       </div>
+
+      <div class="pt-card">
+        <div class="pt-left">
+          <h3>Cisco Packet Tracer Lab Files</h3>
+          <p class="pt-sub">
+            Put your <strong>.pkt</strong> files inside:
+            <code>routing-switching-labs/packet-tracer/</code> then these buttons will work.
+          </p>
+
+          <div class="pt-buttons">
+            <a class="btn primary" href="https://github.com/CMDeegalla/routing-switching-labs/raw/main/packet-tracer/ospf-single-area.pkt">
+              Download OSPF (.pkt)
+            </a>
+
+            <a class="btn ghost" href="https://github.com/CMDeegalla/routing-switching-labs/raw/main/packet-tracer/vlan-intervlan.pkt">
+              Download VLAN (.pkt)
+            </a>
+
+            <a class="btn ghost" href="https://github.com/CMDeegalla/routing-switching-labs/raw/main/packet-tracer/static-routing.pkt">
+              Download Static Routing (.pkt)
+            </a>
+
+            <a class="btn ghost" href="https://github.com/CMDeegalla/routing-switching-labs/tree/main/packet-tracer" target="_blank" rel="noreferrer">
+              View Packet Tracer Folder →
+            </a>
+          </div>
+        </div>
+
+        <div class="pt-right">
+          <div class="pt-badge">
+            <span class="pt-icon">🧩</span>
+            <div>
+              <p class="pt-title">How to use</p>
+              <p class="pt-text">Download → open in Cisco Packet Tracer → verify configs.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
 
       <div class="skills-grid">
         <div class="skill-card">
@@ -206,7 +246,7 @@
           <h4>Security & Analysis</h4>
           <ul>
             <li>Wireshark TCP/DNS analysis</li>
-            <li>Basic threat awareness (ARP spoofing)</li>
+            <li>Threat awareness (ARP spoofing)</li>
             <li>Mitigation strategies</li>
             <li>Firewall/ACL fundamentals</li>
           </ul>
@@ -215,7 +255,7 @@
         <div class="skill-card">
           <h4>Tools</h4>
           <ul>
-            <li>Packet Tracer</li>
+            <li>Cisco Packet Tracer</li>
             <li>GNS3</li>
             <li>Linux CLI</li>
             <li>Git/GitHub documentation</li>
@@ -224,6 +264,7 @@
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="section">
       <div class="section-head">
         <h2>Contact</h2>
@@ -241,14 +282,12 @@
           <a href="https://CMDeegalla.github.io" target="_blank" rel="noreferrer">CMDeegalla.github.io</a>
         </div>
 
-        <p class="contact-note">
-          If you want, I can also add a “Download CV” button once you upload your CV PDF into this repo.
-        </p>
+        
       </div>
     </section>
 
     <footer class="footer">
-      <p>© 2026 Chathuryaya Mandakini Deegalla • Built with GitHub Pages</p>
+
     </footer>
   </main>
 </body>
